@@ -3,12 +3,14 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+first_name: Sujata
+middle_name: 
+last_name: Sinha
+email: sujatasinha@vt.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  I am a PhD Student at the Department of Electrical and Computer Engineering at Virginia Tech where I am advised by Dr. Alkan Soysal. Prior to VT, I received my Masters in Computer Science and Software Engineering at Auburn University under the supervision of Dr. Jingyi Zheng. I earned my Bachelor’s in Electronics and Communication Engineering from Uttar Pradesh Technical University, India.
+  I am broadly interested in the areas of adversarial machine learning for wireless applications.
+# A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -67,7 +69,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
+github_username: sujatassinha # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
