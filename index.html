@@ -110,7 +110,10 @@ a { color: inherit; text-decoration: none; }
 #sidebar::-webkit-scrollbar-thumb { background: var(--teal-lt); border-radius: 3px; }
 
 .sid-avatar {
-  width: 68px; height: 68px; border-radius: 50%;
+  width: 160px; height: 160px; border-radius: 50%;
+  overflow: hidden;                          /* keeps image clipped to circle */
+  background: none;                          /* remove teal gradient */
+  flex-shrink: 0; margin-bottom: 1.1rem;
   background: linear-gradient(140deg, var(--teal) 0%, var(--teal-mid) 100%);
   display: flex; align-items: center; justify-content: center;
   font-family: var(--ff-display); font-size: 1.4rem; font-weight: 400;
@@ -522,7 +525,10 @@ section { margin-bottom: 3rem; }
      ═══════════════════════════ -->
 <aside id="sidebar" aria-label="Profile and navigation">
 
-  <div class="sid-avatar" aria-hidden="true">SS</div>
+  <div class="sid-avatar" aria-hidden="true">
+    <img src="sinha.png"alt="Sujata Sinha"
+      style="width:200%; height:200%; object-fit:cover;">
+  </div>
 
   <div class="sid-name">Sujata Sinha</div>
   <div class="sid-title">
